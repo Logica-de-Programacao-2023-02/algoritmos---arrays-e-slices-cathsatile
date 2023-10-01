@@ -16,6 +16,6 @@ func main() {
 	for _, num := range slice {
 		soma += num
 	}
-	fmt.Println("slice [", tamanho, "]={", slice, "}")
+	fmt.Println("A slice fica: ", slice)
 	fmt.Println("A soma dos números da slice é: ", soma)
 }

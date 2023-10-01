@@ -1,9 +1,13 @@
 package main
 
+import "fmt"
+
 func main() {
-	array := [5]int{3, 5, 18, 22, 31}
+	array := []int{3, 5, 18, 21, 31}
 	for _, i := range array {
 		if i%3 == 0 {
+			slice := []int{i}
+			fmt.Print(slice)
 		}
 
 	}
