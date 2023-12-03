@@ -9,8 +9,7 @@ func main() {
 	fmt.Scan(&num)
 	fmt.Print("Digite o índice do segundo elemento: ")
 	fmt.Scan(&num2)
-	slice[num] = slice[num2]
-	slice[num2] = slice[num]
+	slice[num], slice[num2] = slice[num2], slice[num]
 	fmt.Println("A nova slice fica: ", slice)
 
 }
